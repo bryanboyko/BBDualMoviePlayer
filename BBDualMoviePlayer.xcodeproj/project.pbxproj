@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1953D2BA19B559280059B8DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1953D2B919B559280059B8DB /* Foundation.framework */; };
+		1953D2BC19B559280059B8DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1953D2BB19B559280059B8DB /* CoreGraphics.framework */; };
+		1953D2BE19B559280059B8DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1953D2BD19B559280059B8DB /* UIKit.framework */; };
+		1953D2C419B559280059B8DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1953D2C219B559280059B8DB /* InfoPlist.strings */; };
+		1953D2C619B559280059B8DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953D2C519B559280059B8DB /* main.m */; };
+		1953D2CA19B559280059B8DB /* BBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953D2C919B559280059B8DB /* BBAppDelegate.m */; };
+		1953D2CC19B559280059B8DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1953D2CB19B559280059B8DB /* Images.xcassets */; };
+		1953D2D319B559280059B8DB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1953D2D219B559280059B8DB /* XCTest.framework */; };
+		1953D2D419B559280059B8DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1953D2B919B559280059B8DB /* Foundation.framework */; };
+		1953D2D519B559280059B8DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1953D2BD19B559280059B8DB /* UIKit.framework */; };
+		1953D2DD19B559280059B8DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1953D2DB19B559280059B8DB /* InfoPlist.strings */; };
+		1953D2DF19B559280059B8DB /* BBDualMultiThreadMoviePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953D2DE19B559280059B8DB /* BBDualMultiThreadMoviePlayerTests.m */; };
+		1953D2F219B55A260059B8DB /* BBVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953D2F119B55A260059B8DB /* BBVideo.m */; };
+		1953D2F519B55A330059B8DB /* BBVideoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953D2F419B55A330059B8DB /* BBVideoStore.m */; };
+		1953D2F819B55A3F0059B8DB /* BBImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953D2F719B55A3F0059B8DB /* BBImageStore.m */; };
+		1953D2FC19B55A8A0059B8DB /* BBVideosTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953D2FA19B55A8A0059B8DB /* BBVideosTableViewCell.m */; };
+		1953D2FD19B55A8A0059B8DB /* BBVideosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1953D2FB19B55A8A0059B8DB /* BBVideosTableViewCell.xib */; };
+		1953D30019B55BA90059B8DB /* BBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953D2FF19B55BA90059B8DB /* BBTableViewController.m */; };
+		1953D30419B55BC80059B8DB /* BBVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953D30219B55BC80059B8DB /* BBVideoViewController.m */; };
+		1953D30519B55BC80059B8DB /* BBVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1953D30319B55BC80059B8DB /* BBVideoViewController.xib */; };
+		19D21DF319B7901200C93A06 /* BBAVPlayerDemoPlaybackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D21DF219B7901200C93A06 /* BBAVPlayerDemoPlaybackView.m */; };
+		19D21DF519B7DC9900C93A06 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D21DF419B7DC9900C93A06 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1953D2D619B559280059B8DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1953D2AE19B559280059B8DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1953D2B519B559280059B8DB;
+			remoteInfo = BBDualMultiThreadMoviePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1953D2B619B559280059B8DB /* BBDualMoviePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBDualMoviePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1953D2B919B559280059B8DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1953D2BB19B559280059B8DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1953D2BD19B559280059B8DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1953D2C119B559280059B8DB /* BBDualMoviePlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BBDualMoviePlayer-Info.plist"; sourceTree = "<group>"; };
+		1953D2C319B559280059B8DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1953D2C519B559280059B8DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1953D2C719B559280059B8DB /* BBDualMoviePlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBDualMoviePlayer-Prefix.pch"; sourceTree = "<group>"; };
+		1953D2C819B559280059B8DB /* BBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBAppDelegate.h; sourceTree = "<group>"; };
+		1953D2C919B559280059B8DB /* BBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAppDelegate.m; sourceTree = "<group>"; };
+		1953D2CB19B559280059B8DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1953D2D119B559280059B8DB /* BBDualMoviePlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBDualMoviePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1953D2D219B559280059B8DB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1953D2DA19B559280059B8DB /* BBDualMoviePlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BBDualMoviePlayerTests-Info.plist"; sourceTree = "<group>"; };
+		1953D2DC19B559280059B8DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1953D2DE19B559280059B8DB /* BBDualMultiThreadMoviePlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBDualMultiThreadMoviePlayerTests.m; sourceTree = "<group>"; };
+		1953D2F019B55A260059B8DB /* BBVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBVideo.h; path = Models/BBVideo.h; sourceTree = "<group>"; };
+		1953D2F119B55A260059B8DB /* BBVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBVideo.m; path = Models/BBVideo.m; sourceTree = "<group>"; };
+		1953D2F319B55A330059B8DB /* BBVideoStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBVideoStore.h; path = Models/BBVideoStore.h; sourceTree = "<group>"; };
+		1953D2F419B55A330059B8DB /* BBVideoStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBVideoStore.m; path = Models/BBVideoStore.m; sourceTree = "<group>"; };
+		1953D2F619B55A3F0059B8DB /* BBImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBImageStore.h; path = Models/BBImageStore.h; sourceTree = "<group>"; };
+		1953D2F719B55A3F0059B8DB /* BBImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBImageStore.m; path = Models/BBImageStore.m; sourceTree = "<group>"; };
+		1953D2F919B55A8A0059B8DB /* BBVideosTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBVideosTableViewCell.h; path = Views/BBVideosTableViewCell.h; sourceTree = "<group>"; };
+		1953D2FA19B55A8A0059B8DB /* BBVideosTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBVideosTableViewCell.m; path = Views/BBVideosTableViewCell.m; sourceTree = "<group>"; };
+		1953D2FB19B55A8A0059B8DB /* BBVideosTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BBVideosTableViewCell.xib; path = Views/BBVideosTableViewCell.xib; sourceTree = "<group>"; };
+		1953D2FE19B55BA90059B8DB /* BBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBTableViewController.h; path = Controllers/BBTableViewController.h; sourceTree = "<group>"; };
+		1953D2FF19B55BA90059B8DB /* BBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBTableViewController.m; path = Controllers/BBTableViewController.m; sourceTree = "<group>"; };
+		1953D30119B55BC80059B8DB /* BBVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBVideoViewController.h; path = Controllers/BBVideoViewController.h; sourceTree = "<group>"; };
+		1953D30219B55BC80059B8DB /* BBVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBVideoViewController.m; path = Controllers/BBVideoViewController.m; sourceTree = "<group>"; };
+		1953D30319B55BC80059B8DB /* BBVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BBVideoViewController.xib; path = Controllers/BBVideoViewController.xib; sourceTree = "<group>"; };
+		19D21DF119B7901200C93A06 /* BBAVPlayerDemoPlaybackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBAVPlayerDemoPlaybackView.h; path = Views/BBAVPlayerDemoPlaybackView.h; sourceTree = "<group>"; };
+		19D21DF219B7901200C93A06 /* BBAVPlayerDemoPlaybackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBAVPlayerDemoPlaybackView.m; path = Views/BBAVPlayerDemoPlaybackView.m; sourceTree = "<group>"; };
+		19D21DF419B7DC9900C93A06 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1953D2B319B559280059B8DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D21DF519B7DC9900C93A06 /* AVFoundation.framework in Frameworks */,
+				1953D2BC19B559280059B8DB /* CoreGraphics.framework in Frameworks */,
+				1953D2BE19B559280059B8DB /* UIKit.framework in Frameworks */,
+				1953D2BA19B559280059B8DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1953D2CE19B559280059B8DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1953D2D319B559280059B8DB /* XCTest.framework in Frameworks */,
+				1953D2D519B559280059B8DB /* UIKit.framework in Frameworks */,
+				1953D2D419B559280059B8DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1953D2AD19B559280059B8DB = {
+			isa = PBXGroup;
+			children = (
+				1953D2BF19B559280059B8DB /* BBDualMultiThreadMoviePlayer */,
+				1953D2D819B559280059B8DB /* BBDualMultiThreadMoviePlayerTests */,
+				1953D2B819B559280059B8DB /* Frameworks */,
+				1953D2B719B559280059B8DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1953D2B719B559280059B8DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1953D2B619B559280059B8DB /* BBDualMoviePlayer.app */,
+				1953D2D119B559280059B8DB /* BBDualMoviePlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1953D2B819B559280059B8DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19D21DF419B7DC9900C93A06 /* AVFoundation.framework */,
+				1953D2B919B559280059B8DB /* Foundation.framework */,
+				1953D2BB19B559280059B8DB /* CoreGraphics.framework */,
+				1953D2BD19B559280059B8DB /* UIKit.framework */,
+				1953D2D219B559280059B8DB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1953D2BF19B559280059B8DB /* BBDualMultiThreadMoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1953D2C819B559280059B8DB /* BBAppDelegate.h */,
+				1953D2C919B559280059B8DB /* BBAppDelegate.m */,
+				1953D2FE19B55BA90059B8DB /* BBTableViewController.h */,
+				1953D2FF19B55BA90059B8DB /* BBTableViewController.m */,
+				1953D30119B55BC80059B8DB /* BBVideoViewController.h */,
+				1953D30219B55BC80059B8DB /* BBVideoViewController.m */,
+				1953D30319B55BC80059B8DB /* BBVideoViewController.xib */,
+				1953D2F019B55A260059B8DB /* BBVideo.h */,
+				1953D2F119B55A260059B8DB /* BBVideo.m */,
+				1953D2F319B55A330059B8DB /* BBVideoStore.h */,
+				1953D2F419B55A330059B8DB /* BBVideoStore.m */,
+				1953D2F619B55A3F0059B8DB /* BBImageStore.h */,
+				1953D2F719B55A3F0059B8DB /* BBImageStore.m */,
+				1953D2F919B55A8A0059B8DB /* BBVideosTableViewCell.h */,
+				1953D2FA19B55A8A0059B8DB /* BBVideosTableViewCell.m */,
+				1953D2FB19B55A8A0059B8DB /* BBVideosTableViewCell.xib */,
+				19D21DF119B7901200C93A06 /* BBAVPlayerDemoPlaybackView.h */,
+				19D21DF219B7901200C93A06 /* BBAVPlayerDemoPlaybackView.m */,
+				1953D2CB19B559280059B8DB /* Images.xcassets */,
+				1953D2C019B559280059B8DB /* Supporting Files */,
+			);
+			path = BBDualMultiThreadMoviePlayer;
+			sourceTree = "<group>";
+		};
+		1953D2C019B559280059B8DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1953D2C119B559280059B8DB /* BBDualMoviePlayer-Info.plist */,
+				1953D2C219B559280059B8DB /* InfoPlist.strings */,
+				1953D2C519B559280059B8DB /* main.m */,
+				1953D2C719B559280059B8DB /* BBDualMoviePlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1953D2D819B559280059B8DB /* BBDualMultiThreadMoviePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1953D2DE19B559280059B8DB /* BBDualMultiThreadMoviePlayerTests.m */,
+				1953D2D919B559280059B8DB /* Supporting Files */,
+			);
+			path = BBDualMultiThreadMoviePlayerTests;
+			sourceTree = "<group>";
+		};
+		1953D2D919B559280059B8DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1953D2DA19B559280059B8DB /* BBDualMoviePlayerTests-Info.plist */,
+				1953D2DB19B559280059B8DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1953D2B519B559280059B8DB /* BBDualMoviePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1953D2E219B559280059B8DB /* Build configuration list for PBXNativeTarget "BBDualMoviePlayer" */;
+			buildPhases = (
+				1953D2B219B559280059B8DB /* Sources */,
+				1953D2B319B559280059B8DB /* Frameworks */,
+				1953D2B419B559280059B8DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBDualMoviePlayer;
+			productName = BBDualMultiThreadMoviePlayer;
+			productReference = 1953D2B619B559280059B8DB /* BBDualMoviePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1953D2D019B559280059B8DB /* BBDualMoviePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1953D2E519B559280059B8DB /* Build configuration list for PBXNativeTarget "BBDualMoviePlayerTests" */;
+			buildPhases = (
+				1953D2CD19B559280059B8DB /* Sources */,
+				1953D2CE19B559280059B8DB /* Frameworks */,
+				1953D2CF19B559280059B8DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1953D2D719B559280059B8DB /* PBXTargetDependency */,
+			);
+			name = BBDualMoviePlayerTests;
+			productName = BBDualMultiThreadMoviePlayerTests;
+			productReference = 1953D2D119B559280059B8DB /* BBDualMoviePlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1953D2AE19B559280059B8DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = none;
+				TargetAttributes = {
+					1953D2D019B559280059B8DB = {
+						TestTargetID = 1953D2B519B559280059B8DB;
+					};
+				};
+			};
+			buildConfigurationList = 1953D2B119B559280059B8DB /* Build configuration list for PBXProject "BBDualMoviePlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1953D2AD19B559280059B8DB;
+			productRefGroup = 1953D2B719B559280059B8DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1953D2B519B559280059B8DB /* BBDualMoviePlayer */,
+				1953D2D019B559280059B8DB /* BBDualMoviePlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1953D2B419B559280059B8DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1953D30519B55BC80059B8DB /* BBVideoViewController.xib in Resources */,
+				1953D2C419B559280059B8DB /* InfoPlist.strings in Resources */,
+				1953D2CC19B559280059B8DB /* Images.xcassets in Resources */,
+				1953D2FD19B55A8A0059B8DB /* BBVideosTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1953D2CF19B559280059B8DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1953D2DD19B559280059B8DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1953D2B219B559280059B8DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1953D2F519B55A330059B8DB /* BBVideoStore.m in Sources */,
+				1953D2FC19B55A8A0059B8DB /* BBVideosTableViewCell.m in Sources */,
+				19D21DF319B7901200C93A06 /* BBAVPlayerDemoPlaybackView.m in Sources */,
+				1953D2CA19B559280059B8DB /* BBAppDelegate.m in Sources */,
+				1953D2F819B55A3F0059B8DB /* BBImageStore.m in Sources */,
+				1953D30419B55BC80059B8DB /* BBVideoViewController.m in Sources */,
+				1953D2C619B559280059B8DB /* main.m in Sources */,
+				1953D2F219B55A260059B8DB /* BBVideo.m in Sources */,
+				1953D30019B55BA90059B8DB /* BBTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1953D2CD19B559280059B8DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1953D2DF19B559280059B8DB /* BBDualMultiThreadMoviePlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1953D2D719B559280059B8DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1953D2B519B559280059B8DB /* BBDualMoviePlayer */;
+			targetProxy = 1953D2D619B559280059B8DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1953D2C219B559280059B8DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1953D2C319B559280059B8DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1953D2DB19B559280059B8DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1953D2DC19B559280059B8DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1953D2E019B559280059B8DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1953D2E119B559280059B8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1953D2E319B559280059B8DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBDualMultiThreadMoviePlayer/BBDualMoviePlayer-Prefix.pch";
+				INFOPLIST_FILE = "BBDualMultiThreadMoviePlayer/BBDualMoviePlayer-Info.plist";
+				PRODUCT_NAME = BBDualMoviePlayer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1953D2E419B559280059B8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBDualMultiThreadMoviePlayer/BBDualMoviePlayer-Prefix.pch";
+				INFOPLIST_FILE = "BBDualMultiThreadMoviePlayer/BBDualMoviePlayer-Info.plist";
+				PRODUCT_NAME = BBDualMoviePlayer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1953D2E619B559280059B8DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BBDualMultiThreadMoviePlayer.app/BBDualMultiThreadMoviePlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBDualMultiThreadMoviePlayer/BBDualMultiThreadMoviePlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BBDualMultiThreadMoviePlayerTests/BBDualMoviePlayerTests-Info.plist";
+				PRODUCT_NAME = BBDualMoviePlayerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1953D2E719B559280059B8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BBDualMultiThreadMoviePlayer.app/BBDualMultiThreadMoviePlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBDualMultiThreadMoviePlayer/BBDualMultiThreadMoviePlayer-Prefix.pch";
+				INFOPLIST_FILE = "BBDualMultiThreadMoviePlayerTests/BBDualMoviePlayerTests-Info.plist";
+				PRODUCT_NAME = BBDualMoviePlayerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1953D2B119B559280059B8DB /* Build configuration list for PBXProject "BBDualMoviePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1953D2E019B559280059B8DB /* Debug */,
+				1953D2E119B559280059B8DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1953D2E219B559280059B8DB /* Build configuration list for PBXNativeTarget "BBDualMoviePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1953D2E319B559280059B8DB /* Debug */,
+				1953D2E419B559280059B8DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1953D2E519B559280059B8DB /* Build configuration list for PBXNativeTarget "BBDualMoviePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1953D2E619B559280059B8DB /* Debug */,
+				1953D2E719B559280059B8DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1953D2AE19B559280059B8DB /* Project object */;
+}
